@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>University admit eligibility predictorn</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+        <header>
+            <h1>University admit eligibility predictor</h1>
+        </header>
+        <div class="form-container">
+            <form action="/model#result" method="POST">
+                <div class="field">
+                    <label for="Enter_GRE_Score">
+                        <p class="cylinders field-name">Enter GRE Score</p>
+                    </label>
+                    <input type="number" id="no_of_cylinders input" name="no_of_cylinders">
+                </div>
+                <div class="field">
+                    <label for="Enter_TOFEL_SCORE">
+                        <p class="displacement field-name">Enter TOFEL SCORE</p>
+                    </label>
+                    <input type="number" id="displacement input" name="displacement">
+                </div>
+
+                <div class="field">
+                    <label for="Enter_SOP">
+                        <p class="horsepower field-name">Enter SOP</p>
+                    </label>
+                    <input type="number" id="horsepower input" name="horsepower">
+                </div>
+
+                <div class="field">
+                    <label for="Enter_LOR">
+                        <p class="weight field-name">Enter LOR</p>
+                    </label>
+                    <input type="number" id="weight input" name="weight">
+                </div>
+
+                <div class="field">
+                    <label for="Enter_CGPA">
+                        <p class="acceleration field-name">Enter CGPA</p>
+                    </label>
+                    <input type="number" id="acceleration input" name="acceleration">
+                </div>
+
+                <div class="field">
+                    <label for="Select_university_Number">
+                        <p class="model_year field-name">Select university Number</p>
+                    </label>
+                   
+                <input type="radio" id="child" name="age" value="child">
+                <label for="child">1</label><br>
+                <input type="radio" id="adult" name="age" value="adult">
+                <label for="adult">2</label><br>
+                <input type="radio" id="senior" name="age" value="senior">
+                <label for="senior">3</label><br>
+                <input type="radio" id="senior" name="age" value="senior">
+                <label for="senior">4</label><br>
+                <input type="radio" id="senior" name="age" value="senior">
+                <labe for="senior">5</label><br>
+                 </div>
+                  
+                <div class="field">
+                    <label for="Research">
+                        <p class="origin field-name">Research</p>
+                    </label>
+                    <input type="radio" id="child" name="age" value="child">
+                    <label for="child">Research</label><br>
+                    <input type="radio" id="child" name="age" value="child">
+                    <label for="child">No Research</label><br>
+                   </div>
+                    
+
+                <a href="./css/chance.html"><input type="submit" value="PREDICT" class="submit-btn btn"></a>
+            </form>
+        </div>
+    </body>
+</html>
